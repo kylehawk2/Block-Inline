@@ -4,34 +4,40 @@
  padding: 10px;
 }
 #wrapper{
- width: 950px;
- background-color: silver;
+ width: 960px;
+ height: 620px;
+ background-color: rgb(38, 100, 151);
  margin: 10px auto;
+ border-radius: 25px;
 }
 #header{
- height: 150px;
- background-color: green;
+ height: 50px;
+ background-color: red;
+ border-radius: 25px;
+}
+h1{
+ text-align: center;
+ text-align: left;
 }
 #navigation{
- height: 200px;
+ height: 400px;
  width: 200px;
- background-color: blue;
+ bottom: 100px;
+ background-color: rgb(34, 167, 219);
  display: inline-block;
+ border-radius: 25px;
 }
 #main_content{
  height: 400px;
  width: 660px;
- background-color: red;
+ background-color: rgb(16, 23, 34);
  display: inline-block;
-}
-.subcontents{
- height: 200px;
- width: 170px;
- background-color: yellow;
- display: inline-block;
+ border-radius: 25px
 }
 #advertisement{
- height: 120px;
- width: 600px;
- background-color: purple;
+ height: 50px;
+ width: 910px;
+ background-color: silver;
+ display: inline-block;
+ border-radius: 25px;
 }
